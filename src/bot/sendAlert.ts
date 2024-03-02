@@ -76,7 +76,7 @@ ${hardCleanUpBotMessage(name)} \\| [${hardCleanUpBotMessage(
 *Hype: ${hypeScore}/100*
       
 💲 Price: $${cleanUpBotMessage(priceUsd)}
-📈 Change: $${cleanUpBotMessage(priceChange.h24)}%
+📈 Change: ${cleanUpBotMessage(priceChange.h24)}%
 💰 MCap: $${cleanUpBotMessage(formatToInternational(marketCap))}
 🏦 Lp ETH: ${liquidityText} ETH *\\($${liquidityUsd}\\)*
 👤 Buyers: ${buyers.h24} \\($${cleanUpBotMessage(volumeBuy.h24)}\\)
