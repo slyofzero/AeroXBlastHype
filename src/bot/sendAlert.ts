@@ -51,9 +51,6 @@ export async function sendAlert(pairs: PairData[]) {
         const tokenLink = `https://mainnet.blastblockchain.com/token/${tokenAddress}`;
         const dexToolsLink = `https://www.dextools.io/app/en/blast/pair-explorer/${address}`;
         const dexScreenerLink = `https://dexscreener.com/blast/${address}`;
-        const magnumLink = `https://t.me/magnum_trade_bot?start=${tokenAddress}`;
-        const bananaLink = `https://t.me/BananaGunSolana_bot?start=${tokenAddress}`;
-        const unibot = `https://t.me/solana_unibot?start=${tokenAddress}`;
 
         const now = Math.floor(Date.now() / 1e3);
 
@@ -85,10 +82,6 @@ Token Contract:
 \`${tokenAddress}\`
 
 📊 [DexTools](${dexToolsLink}) \\| 📊 [DexScreener](${dexScreenerLink})
-
-Buy:
-[Magnum](${magnumLink}) \\| [BananaGun](${bananaLink})
-[Unibot](${unibot})
 
 Powered By [AeroX Blast Hype Alerts](https://t.me/AeroXHypePairsBlast)`;
 
