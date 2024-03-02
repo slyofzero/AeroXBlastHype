@@ -51,7 +51,6 @@ export async function sendAlert(pairs: PairData[]) {
         const tokenLink = `https://mainnet.blastblockchain.com/token/${tokenAddress}`;
         const dexToolsLink = `https://www.dextools.io/app/en/blast/pair-explorer/${address}`;
         const dexScreenerLink = `https://dexscreener.com/blast/${address}`;
-        const bonkBotLink = `https://t.me/bonkbot_bot?start=${tokenAddress}`;
         const magnumLink = `https://t.me/magnum_trade_bot?start=${tokenAddress}`;
         const bananaLink = `https://t.me/BananaGunSolana_bot?start=${tokenAddress}`;
         const unibot = `https://t.me/solana_unibot?start=${tokenAddress}`;
@@ -68,7 +67,7 @@ export async function sendAlert(pairs: PairData[]) {
         const hypeScore = getRandomInteger();
 
         // Text
-        const text = `Powered By [AeroX Blast Hype Alerts](https://t.me/SolanaHypeTokenAlerts) \\| Hype Alert
+        const text = `Powered By [AeroX Blast Hype Alerts](https://t.me/AeroXHypePairsBlast) \\| Hype Alert
       
 ${hardCleanUpBotMessage(name)} \\| [${hardCleanUpBotMessage(
           symbol
@@ -79,7 +78,7 @@ ${hardCleanUpBotMessage(name)} \\| [${hardCleanUpBotMessage(
 💲 Price: $${cleanUpBotMessage(priceUsd)}
 📈 Change: $${cleanUpBotMessage(priceChange.h24)}%
 💰 MCap: $${cleanUpBotMessage(formatToInternational(marketCap))}
-🏦 Lp SOL: ${liquidityText} SOL *\\($${liquidityUsd}\\)*
+🏦 Lp ETH: ${liquidityText} ETH *\\($${liquidityUsd}\\)*
 👤 Buyers: ${buyers.h24} \\($${cleanUpBotMessage(volumeBuy.h24)}\\)
 
 Token Contract: 
@@ -89,9 +88,9 @@ Token Contract:
 
 Buy:
 [Magnum](${magnumLink}) \\| [BananaGun](${bananaLink})
-[Unibot](${unibot}) \\| [BonkBot](${bonkBotLink})
+[Unibot](${unibot})
 
-Powered By [AeroX Blast Hype Alerts](https://t.me/SolanaHypeTokenAlerts)`;
+Powered By [AeroX Blast Hype Alerts](https://t.me/AeroXHypePairsBlast)`;
 
         try {
           teleBot.api
