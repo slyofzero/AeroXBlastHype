@@ -1,0 +1,36 @@
+{
+  "chainId": "blast",
+  "dexId": "dyorswap",
+  "pairAddress": "0x12a8f501D2f7460e8d23aa5b1a9561eA56E2A0Af",
+  "baseToken": {
+    "address": "0xa9aEE6470865B981BE295Ad2a567667085096fDc",
+    "name": "Cloud AI ",
+    "symbol": " CLAI"
+  },
+  "quoteToken": {
+    "address": "0x4300000000000000000000000000000000000004",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "quoteTokenSymbol": "WETH",
+  "price": "0.000000007676",
+  "priceUsd": "0.00002622",
+  "txns": {
+    "m5": { "buys": 8, "sells": 2 },
+    "h1": { "buys": 16, "sells": 3 },
+    "h6": { "buys": 16, "sells": 3 },
+    "h24": { "buys": 16, "sells": 3 }
+  },
+  "buyers": { "m5": 8, "h1": 16, "h6": 16, "h24": 16 },
+  "sellers": { "m5": 2, "h1": 3, "h6": 3, "h24": 3 },
+  "makers": { "m5": 9, "h1": 16, "h6": 16, "h24": 16 },
+  "volume": { "m5": 4837.87, "h1": 8649.83, "h6": 8649.83, "h24": 8649.83 },
+  "volumeBuy": { "m5": 4155.72, "h1": 7610.97, "h6": 7610.97, "h24": 7610.97 },
+  "volumeSell": { "m5": 682.15, "h1": 1038.85, "h6": 1038.85, "h24": 1038.85 },
+  "priceChange": { "m5": 81.91, "h1": 283, "h6": 283, "h24": 283 },
+  "liquidity": { "usd": 26803.76, "base": 510968872, "quote": 3.9223 },
+  "marketCap": 26228,
+  "pairCreatedAt": 1709384375000,
+  "c": "a",
+  "a": "uniswap"
+}
